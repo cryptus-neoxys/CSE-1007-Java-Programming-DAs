@@ -1,7 +1,8 @@
 # List of Questions
 
 1. [x] Write a Java program to print the third largest number in an array
-2. [ ] Read the following details of ‘n’ students using Scanner class methods and display the same. - Registration number ( String)
+2. [ ] Read the following details of ‘n’ students using Scanner class methods and display the same.
+       • Registration number ( String)
        • Name (String that may contain first name, middle name and last name)
        • CGPA (Floating point number)
        • Programme Name(String)
