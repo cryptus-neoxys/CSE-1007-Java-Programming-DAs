@@ -15,7 +15,11 @@
        Test Data:
        array = 50, -20, 0, 30, 40, 60, 10
        Sample Output: False
-7. [ ] Write a Java program to test if the first and the last element of two array of integers are same. The length of the array must be greater than or equal to Test Data: Array1 = 50, -20, 0, 30, 40, 60, 12 array2 = 45, 20, 10, 20, 30, 50, 11 Sample Output: false
+7. [x] Write a Java program to test if the first and the last element of two array of integers are same. The length of the array must be greater than or equal to.
+       Test Data:
+       Array1 = 50, -20, 0, 30, 40, 60, 12
+       array2 = 45, 20, 10, 20, 30, 50, 11
+       Sample Output: false
 8. [ ] Write a Java program to create a new array of length 2 from two arrays of integers with three elements and the new array will contain the first and last elements from the two arrays Test Data: array1 = 50, -20, 0 array2 = 5, -50, 10 Sample Output: Array1: [50, -20, 0] Array2: [5, -50, 0] New Array: [50, 10]
 9. [ ] Write a Java program to test that a given array of integers of length 2 contains a 4 or a 7. Original Array: [5, 7]  Sample Output: true
 10. [ ] Write a Java program to rotate an array (length 3) of integers in left direction. Sample Output: Original Array: [20, 30, 40] Rotated Array: [30, 40, 20]
