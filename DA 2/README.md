@@ -20,7 +20,14 @@
        Array1 = 50, -20, 0, 30, 40, 60, 12
        array2 = 45, 20, 10, 20, 30, 50, 11
        Sample Output: false
-8. [ ] Write a Java program to create a new array of length 2 from two arrays of integers with three elements and the new array will contain the first and last elements from the two arrays Test Data: array1 = 50, -20, 0 array2 = 5, -50, 10 Sample Output: Array1: [50, -20, 0] Array2: [5, -50, 0] New Array: [50, 10]
+8. [x] Write a Java program to create a new array of length 2 from two arrays of integers with three elements and the new array will contain the first and last elements from the two arrays
+       Test Data:
+       array1 = 50, -20, 0
+       array2 = 5, -50, 10
+       Sample Output:
+       Array1: [50, -20, 0]
+       Array2: [5, -50, 10]
+       New Array: [50, 10]
 9. [ ] Write a Java program to test that a given array of integers of length 2 contains a 4 or a 7. Original Array: [5, 7]  Sample Output: true
 10. [ ] Write a Java program to rotate an array (length 3) of integers in left direction. Sample Output: Original Array: [20, 30, 40] Rotated Array: [30, 40, 20]
 11. [ ] Write a Java program to get the larger value between first and last element of an array (length 3) of integers. Sample Output: Original Array: [20, 30, 40] Larger value between first and last element: 40
