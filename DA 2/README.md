@@ -9,7 +9,7 @@
        • School Name (String with multiple words)
        • Proctor Name (String that may contain first, middle and last names)
 3. [x] Write a Java program to sort an array of positive integers of an given array, in the sorted array the value of the first element should be maximum, second value should be minimum value, third should be second maximum, fourth second be second minimum and so on.
-4. [ ] Write a Java program to separate even and odd numbers of an given array of integers. Put all even numbers first, and then odd numbers.
+4. [x] Write a Java program to separate even and odd numbers of an given array of integers. Put all even numbers first, and then odd numbers.
 5. [ ] Write a Java program to convert a binary number to decimal number and to decimal number to binary number.
 6. [ ] Write a Java program to test if the first and the last element of an array of integers are same. The length of the array must be greater than or equal to 2. \Test Data: array = 50, -20, 0, 30, 40, 60, 10 Sample Output: False
 7. [ ] Write a Java program to test if the first and the last element of two array of integers are same. The length of the array must be greater than or equal to Test Data: Array1 = 50, -20, 0, 30, 40, 60, 12 array2 = 45, 20, 10, 20, 30, 50, 11 Sample Output: false
