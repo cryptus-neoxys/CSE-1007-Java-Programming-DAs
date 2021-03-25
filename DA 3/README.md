@@ -4,7 +4,7 @@
    - In the ‘Words’ class, define a method countNumWords() that will count the number of words in the given text.
    - In the ‘Length’ class, define a method strLength() to find the length of the string without using length() function.
    - Define the main class and import the packages and call the methods under the classes Words, Length respectively.
-2. [ ] Write a Java program to demonstrate multiple inheritance with two interfaces and a class with main class to find sum of n numbers and factorial of a given number.
+2. [x] Write a Java program to demonstrate multiple inheritance with two interfaces and a class with main class to find sum of n numbers and factorial of a given number.
 3. [ ] Create an interface called Newspaper. In the interface, create a method called news ().
    - Implement interface Newspaper by class Magazine.
    - Implement interface Newspaper by class Brochure.
