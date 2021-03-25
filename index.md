@@ -80,6 +80,27 @@
   19. [ ] Write a program to demonstrate the knowledge of students in multidimensional arrays and looping constructs. Eg., If there are 4 batches in BTech - “CSE1007” course, read the count of the slow learners (who have scored <25) in each batch. Tutors should be assigned in the ratio of 1:4 (For every 4 slow learners, there should be one tutor). Determine the number of tutors for each batch. Create a 2-D jagged array with 4 rows to store the count of slow learners in the 4 batches. The number of columns in each row should be equal to the number of groups formed for that particular batch ( Eg., If there are 23 slow learners in a batch, then there should be 6 tutors and in the jagged array, the corresponding row should store 4, 4, 4, 4, 4,3). Use for-each loop to traverse the array and print the details. Also print the number of batches in which all tutors have exactly 4 students.
 
 ## DA 3
+  ### List of Questions
+
+  1. [ ] Create a package named Pack1, with a class ‘Words’. Create another package Pack2 inside Pack1 with a class ‘Length’ in it.
+     - In the ‘Words’ class, define a method countNumWords() that will count the number of words in the given text.
+     - In the ‘Length’ class, define a method strLength() to find the length of the string without using length() function.
+     - Define the main class and import the packages and call the methods under the classes Words, Length respectively.
+  2. [ ] Write a Java program to demonstrate multiple inheritance with two interfaces and a class with main class to find sum of n numbers and factorial of a given number.
+  3. [ ] Create an interface called Newspaper. In the interface, create a method called news ().
+     - Implement interface Newspaper by class Magazine.
+     - Implement interface Newspaper by class Brochure.
+     - The method news () in each class display the following information.
+       - In Magazine class : String title, integer ISBN, String editor.
+       - In Brochure class: String title, integer year, integer page_number.
+  4. [ ] Create an abstract class called Student which includes the following for each student:
+     1. Name
+     2. Status (full time, part time)
+     3. Telephone
+     4. Then implement an abstract method which determines the amount paid by the student which varies between full time and part time students. (Tuition fees- full-time students paying a flat fee of $2,000 and part-time students paying $200 per credit hour)
+     5. Create two child classes and call them FullTimeStudent and PartTimeStudent.
+     6. Write a Java program by creating objects of the two child classes and display the data fields for each object.
+
 ## DA 4
 ## DA 5
 ## DA 6
