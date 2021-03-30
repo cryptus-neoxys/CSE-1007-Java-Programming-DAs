@@ -35,7 +35,7 @@
         Sample Output:
         Original Array: [20, 30, 40]
         Rotated Array: [30, 40, 20]
-11. [ ] Write a Java program to get the larger value between first and last element of an array (length 3) of integers. Sample Output: Original Array: [20, 30, 40] Larger value between first and last element: 40
+11. [x] Write a Java program to get the larger value between first and last element of an array (length 3) of integers. Sample Output: Original Array: [20, 30, 40] Larger value between first and last element: 40
 12. [ ] Write a Java program to swap the first and last elements of an array (length must be at least 1) and create a new array. Sample Output: Original Array: [20, 30, 40] New array after swaping the first and last elements: [40, 30, 20]
 13. [ ] Write a Java program to find the largest element between first, last, and middle values from an array of integers (even length).
 14. [ ] Write a Java program to multiply corresponding elements of two arrays of integers.
