@@ -35,20 +35,20 @@
         Sample Output:
         Original Array: [20, 30, 40]
         Rotated Array: [30, 40, 20]
-11. [ ] Write a Java program to get the larger value between first and last element of an array (length 3) of integers. Sample Output: Original Array: [20, 30, 40] Larger value between first and last element: 40
+11. [x] Write a Java program to get the larger value between first and last element of an array (length 3) of integers. Sample Output: Original Array: [20, 30, 40] Larger value between first and last element: 40
 12. [ ] Write a Java program to swap the first and last elements of an array (length must be at least 1) and create a new array. Sample Output: Original Array: [20, 30, 40] New array after swaping the first and last elements: [40, 30, 20]
 13. [ ] Write a Java program to find the largest element between first, last, and middle values from an array of integers (even length).
 14. [ ] Write a Java program to multiply corresponding elements of two arrays of integers.
 15. [ ] Write a Java program to add two matrix.
-16. [ ]Write a Java program to multiply two matrix.
-17. [ ]Write a Java program to Calculate diagonal element.
-18. [ ]Write a Java Program to print this pattern for n lines
-    1
-    12
-    123
-    1234
-    1234
-    123
-    12
-    1
+16. [ ] Write a Java program to multiply two matrix.
+17. [ ] Write a Java program to Calculate diagonal element.
+18. [x] Write a Java Program to print this pattern for n lines
+        1
+        12
+        123
+        1234
+        1234
+        123
+        12
+        1
 19. [ ] Write a program to demonstrate the knowledge of students in multidimensional arrays and looping constructs. Eg., If there are 4 batches in BTech - “CSE1007” course, read the count of the slow learners (who have scored <25) in each batch. Tutors should be assigned in the ratio of 1:4 (For every 4 slow learners, there should be one tutor). Determine the number of tutors for each batch. Create a 2-D jagged array with 4 rows to store the count of slow learners in the 4 batches. The number of columns in each row should be equal to the number of groups formed for that particular batch ( Eg., If there are 23 slow learners in a batch, then there should be 6 tutors and in the jagged array, the corresponding row should store 4, 4, 4, 4, 4,3). Use for-each loop to traverse the array and print the details. Also print the number of batches in which all tutors have exactly 4 students.
