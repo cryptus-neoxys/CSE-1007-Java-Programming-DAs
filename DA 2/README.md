@@ -41,7 +41,7 @@
 14. [ ] Write a Java program to multiply corresponding elements of two arrays of integers.
 15. [ ] Write a Java program to add two matrix.
 16. [ ] Write a Java program to multiply two matrix.
-17. [ ] Write a Java program to Calculate diagonal element.
+17. [x] Write a Java program to Calculate diagonal element.
 18. [x] Write a Java Program to print this pattern for n lines
         1
         12
