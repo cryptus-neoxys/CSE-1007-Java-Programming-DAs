@@ -40,7 +40,7 @@
 13. [x] Write a Java program to find the largest element between first, last, and middle values from an array of integers (even length).
 14. [x] Write a Java program to multiply corresponding elements of two arrays of integers.
 15. [x] Write a Java program to add two matrix.
-16. [x] Write a Java program to multiply two matrix.
+16. [ ] Write a Java program to multiply two matrix.
 17. [ ] Write a Java program to Calculate diagonal element.
 18. [ ] Write a Java Program to print this pattern for n lines
     1
