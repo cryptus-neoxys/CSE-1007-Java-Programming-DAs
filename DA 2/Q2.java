@@ -1,67 +1,44 @@
 import java.util.Scanner;
 
 public class Q2 {
-  /*
-   * Read the following details of ‘n’ students using Scanner class methods and
-   * display the same. • Registration number ( String) • Name (String that may
-   * contain first name, middle name and last name) • CGPA (Floating point number)
-   * • Programme Name(String) • School Name (String with multiple words) • Proctor
-   * Name (String that may contain first, middle and last names)
-   */
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter no. of students:");
-    int n = sc.nextInt();
-    Student[] s = new Student[n];
-
-    for (int i = 0; i < n; ++i) {
-
-      // Input Student details
-      System.out.println("Enter regNo.:");
-      String regNo = sc.next();
-      System.out.println("Enter name.:");
-      String name = sc.next();
-      System.out.println("Enter cgpa.:");
-      Float cgpa = sc.nextFloat();
-      System.out.println("Enter programmeName.:");
-      String programmeName = sc.next();
-      System.out.println("Enter schoolName.:");
-      String schoolName = sc.next();
-      System.out.println("Enter proctor.:");
-      String proctor = sc.next();
-
-      // Construct Student
-      s[i] = new Student(regNo, name, cgpa, programmeName, schoolName, proctor);
-    }
-    sc.close();
-
-    // Using the toString method override
-    // to print Student details
-    for (Student x : s)
-      System.out.println(x);
-  }
-}
-
-class Student {
-  String regNo;
   String name;
-  float cgpa;
-  String programmeName;
-  String schoolName;
-  String proctor;
+  float CGPA;
+  String programme;
+  String school;
+  String proctName;
 
-  public Student(String regNo, String name, float cgpa, String programmeName, String schoolName, String proctor) {
-    this.regNo = regNo;
-    this.name = name;
-    this.cgpa = cgpa;
-    this.programmeName = programmeName;
-    this.schoolName = schoolName;
-    this.proctor = proctor;
-  }
-
-  @Override
-  public String toString() {
-    return "Student [cgpa=" + cgpa + ", name=" + name + ", proctor=" + proctor + ", programName=" + programmeName
-        + ", regNo=" + regNo + ", schoolName=" + schoolName + "]";
+  public static void main(String args[]) {
+    Scanner sh = new Scanner(System.in);
+    Q2[] A = new Q2[20];
+    System.out.println("Enter the number of students you want: ");
+    int n = sh.nextInt();
+    for (int i = 0; i < n; i++) {
+      A[i] = new Q2();
+    }
+    for (int i = 0; i < n; i++) {
+      System.out.println("Enter the name of student " + (i + 1) + ": ");
+      sh.nextLine();
+      A[i].name = sh.nextLine();
+      System.out.println("Enter the CGPA of student " + (i + 1) + ": ");
+      A[i].CGPA = sh.nextFloat();
+      System.out.println("Enter the programme of student " + (i + 1) + ": ");
+      A[i].programme = sh.next();
+      System.out.println("Enter the school of student " + (i + 1) + ": ");
+      sh.nextLine();
+      A[i].school = sh.next();
+      System.out.println("Enter the proctor name of student " + (i + 1) + ": ");
+      sh.nextLine();
+      A[i].proctName = sh.next();
+    }
+    sh.close();
+    System.out.println("Displaying the Data \n");
+    for (int i = 0; i < n; i++) {
+      System.out.println("Data of Student " + (i + 1) + "\n");
+      System.out.println("Name: " + A[i].name);
+      System.out.println("CGPA: " + A[i].CGPA);
+      System.out.println("Programme: " + A[i].programme);
+      System.out.println("School: " + A[i].school);
+      System.out.println("Proctor: " + A[i].proctName + "\n");
+    }
   }
 }
