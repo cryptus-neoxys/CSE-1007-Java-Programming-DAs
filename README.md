@@ -3,7 +3,7 @@
 ## DA Status
 
 - [x] DA 1
-- [ ] DA 2
+- [x] DA 2
 - [ ] DA 3
 - [ ] DA 4
 - [ ] DA 5
